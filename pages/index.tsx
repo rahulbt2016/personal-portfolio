@@ -9,6 +9,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Rahul's Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/png" href="images/rt-logo.png" />
       </Head>
 
       <Header />
