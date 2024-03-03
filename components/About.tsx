@@ -31,10 +31,10 @@ function About({}: Props) {
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}
         src="images/rahul_about_image.jpg"
-        className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[450px] xl:h-[500px]"
+        className="-mb-28 md:mb-0 flex-shrink-0 w-40 h-40 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[450px] xl:h-[500px]"
       />
 
-      <div className="space-y-10 px-0 md:px-10">
+      <div className="space-y-3 md:space-y-10 px-0 md:px-10">
         <h4 className="text-xl md:text-4xl font-semibold">
           Here is a{" "}
           <span className="underline decoration-[#F7AB0A]">little</span>{" "}
