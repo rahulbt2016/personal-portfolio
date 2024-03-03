@@ -20,7 +20,7 @@ function Hero({}: Props) {
       <BackgroundCircles />
       <img
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
-        src="/images/rahul_hero_image.jpg"
+        src="/images/rahul_hero_image.JPG"
         alt=""
       />
       <div className="z-20">
