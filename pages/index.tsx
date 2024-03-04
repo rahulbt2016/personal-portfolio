@@ -8,6 +8,7 @@ import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import ContactMe from "@/components/ContactMe";
 import Link from "next/link";
+import data from "./data.json";
 
 const Home: NextPage = () => {
   return (
@@ -21,30 +22,30 @@ const Home: NextPage = () => {
         <link rel="icon" type="image/png" href="images/rt-logo.png" />
       </Head>
 
-      <Header />
+      <Header socials={data.socials} />
 
       <section id="hero" className="snap-start">
         <Hero />
       </section>
 
       <section id="about" className="snap-center">
-        <About />
+        <About about={data.about} />
       </section>
 
       <section id="experience" className="snap-center">
-        <WorkExperience />
+        <WorkExperience experiences={data.experiences} />
       </section>
 
       <section id="skills" className="snap-start">
-        <Skills />
+        <Skills skills={data.skills} />
       </section>
 
       <section id="projects" className="snap-start">
-        <Projects />
+        <Projects projects={data.projects} />
       </section>
 
       <section id="contact" className="snap-start">
-        <ContactMe />
+        <ContactMe contact={data.contact} />
       </section>
 
       <Link href="#hero">
@@ -52,7 +53,7 @@ const Home: NextPage = () => {
           <div className="flex items-center justify-center">
             <img
               className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0"
-              src="/images/rahul_hero_image.JPG"
+              src={data.hero.imagePath}
               alt=""
             />
           </div>

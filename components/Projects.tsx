@@ -1,10 +1,15 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-type Props = {};
+type Props = {
+  projects: {
+    title: string;
+    description: string;
+    imagePath: string;
+  }[];
+};
 
-function Projects({}: Props) {
-  const projects = [1, 2, 3, 4, 5];
+function Projects({ projects }: Props) {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -23,7 +28,7 @@ function Projects({}: Props) {
       >
         {projects.map((project, index) => (
           <div
-            key={index} // <-- Add key prop here
+            key={index}
             className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center 
                             justify-center p-20 md:p-44 h-screen"
           >
@@ -41,22 +46,18 @@ function Projects({}: Props) {
                 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg"
+                src={project.imagePath}
                 alt=""
               />
 
               <h4 className="text-4xl font-semibold text-center">
                 <span className="underline decoration-[#F7AB0A]/50">
-                  Project {index + 1}
+                  {project.title}
                 </span>{" "}
               </h4>
 
               <p className="text-lg text-center md:text-left">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                id odio sit amet purus tincidunt tincidunt. Nulla facilisi.
-                Phasellus ac semper nunc. Nullam nec nisl et nisi aliquet
-                sollicitudin. Nulla facilisi. Phasellus ac semper nunc. Nullam
-                nec nisl et nisi aliquet sollicitudin.
+                {project.description}
               </p>
             </div>
           </div>

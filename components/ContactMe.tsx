@@ -2,7 +2,13 @@ import React from "react";
 import { PhoneIcon, MapPinIcon, EnvelopeIcon } from "@heroicons/react/20/solid";
 import { useForm, SubmitHandler } from "react-hook-form";
 
-type Props = {};
+type Props = {
+  contact: {
+    phone: string;
+    email: string;
+    address: string;
+  };
+};
 
 type Inputs = {
   name: string;
@@ -11,7 +17,7 @@ type Inputs = {
   message: string;
 };
 
-function ContactMe({}: Props) {
+function ContactMe({ contact }: Props) {
   const { register, handleSubmit } = useForm<Inputs>();
 
   const onSubmit: SubmitHandler<Inputs> = (formData) => {
@@ -32,17 +38,17 @@ function ContactMe({}: Props) {
         <div className="space-y-3 md:space-y-10">
           <div className="flex items-center space-x-5 justify-center">
             <PhoneIcon className="text-[#F7AB0A] h-5 w-5 md:h-7 md:w-7 animate-pulse" />
-            <p className="text-lg md:text-2xl">+1 (437) 991-7639</p>
+            <p className="text-lg md:text-2xl">{contact.phone}</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
             <EnvelopeIcon className="text-[#F7AB0A] h-5 w-5 md:h-7 md:w-7 animate-pulse" />
-            <p className="text-lg md:text-2xl">rahulbt2016@gmail.com</p>
+            <p className="text-lg md:text-2xl">{contact.email}</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
             <MapPinIcon className="text-[#F7AB0A] h-5 w-5 md:h-7 md:w-7 animate-pulse" />
-            <p className="text-lg md:text-2xl">Toronto 🍁 </p>
+            <p className="text-lg md:text-2xl">{contact.address}</p>
           </div>
         </div>
 

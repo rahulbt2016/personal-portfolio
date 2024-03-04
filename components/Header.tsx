@@ -2,9 +2,11 @@ import React from "react";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
 
-type Props = {};
+type Props = {
+  socials: string[];
+};
 
-function Header({}: Props) {
+function Header({ socials }: Props) {
   return (
     <header
       className="sticky top-0 p-5 flex items-start justify-between max-w-8xl mx-auto z-20
@@ -27,23 +29,14 @@ function Header({}: Props) {
         className="flex flex-row items-center"
       >
         {/* Social icons */}
-        <SocialIcon
-          url="https://www.linkedin.com/in/rahulbt2016"
-          fgColor="gray"
-          bgColor="transparent"
-        />
-
-        <SocialIcon
-          url="https://www.github.com/rahulbt2016"
-          fgColor="gray"
-          bgColor="transparent"
-        />
-
-        <SocialIcon
-          url="https://www.twitter.com/rahulbt98"
-          fgColor="gray"
-          bgColor="transparent"
-        />
+        {socials.map((social, index) => (
+          <SocialIcon
+            key={index}
+            url={social}
+            fgColor="gray"
+            bgColor="transparent"
+          />
+        ))}
       </motion.div>
 
       <motion.div

@@ -1,9 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-type Props = {};
+type Props = {
+  about: {
+    imagePath: string;
+    text: string;
+  };
+};
 
-function About({}: Props) {
+function About({ about }: Props) {
   return (
     <motion.div
       initial={{
@@ -30,7 +35,7 @@ function About({}: Props) {
         }}
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}
-        src="images/rahul_about_image.jpg"
+        src={about.imagePath}
         className="-mb-28 md:mb-0 flex-shrink-0 w-40 h-40 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[450px] xl:h-[500px]"
       />
 
@@ -40,20 +45,7 @@ function About({}: Props) {
           <span className="underline decoration-[#F7AB0A]">little</span>{" "}
           background
         </h4>
-        <p className="text-sm md:text-base">
-          Hey there! 👋 I'm Rahul, a tech enthusiast with over 8 years of coding
-          wizardry under my belt. 🧙‍♂️ From the bustling streets of India to the
-          cool vibes of Canada, I've been on a quest for knowledge in the realm
-          of Information Technology. 🌐 Armed with a Bachelor's degree in IT and
-          a Post Graduation in Information Technology Solutions from Humber
-          College, I've honed my skills to master the art of full stack
-          development. 💻 With a toolkit featuring Java Spring Boot, Angular,
-          Node.js, and React.js, I've journeyed through the realms of startups
-          like OpenScreen, where I helped automate bulk QR code generation for
-          Shoppers Drug Mart. Now, I'm leveling up at FDM Group as a Software
-          Developer Trainee, soaking in industry-recognized training and seizing
-          every opportunity that comes my way. Let's code some magic! ✨
-        </p>
+        <p className="text-sm md:text-base">{about.text}</p>
       </div>
     </motion.div>
   );
