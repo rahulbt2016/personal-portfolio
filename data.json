@@ -20,8 +20,8 @@
   },
   "experiences": [
     {
-      "companyImagePath": "images/fdm-logo.jpg",
-      "title": "Software Developer (Java) - Trainee",
+      "companyImagePath": "images/fdm-logo2.jpg",
+      "title": "IT Consultant",
       "company": "FDM Group",
       "techImages": [
         "https://www.vectorlogo.zone/logos/java/java-icon.svg",
@@ -34,11 +34,30 @@
       "started": "Dec 2023",
       "ended": "Present",
       "descriptionPoints": [
-        "Developed and maintained core components of enterprise-level Java applications, resulting in a 15% improvement in system efficiency.",
-        "Implemented Test-Driven Development (TDD), reducing post-release defects by 25%.",
-        "Optimized data access layers using JDBC and JPA, resulting in significant database query time reduction.",
-        "Collaborated with Agile teams to meet tight deadlines, enhancing sprint velocity.",
-        "Engaged in code reviews and knowledge sharing, fostering continuous learning within the team."
+        "Enhanced enterprise Java applications by developing and maintaining core components with Spring Boot, leading to a 15% efficiency boost.",
+        "Implemented Test-Driven Development (TDD) with JUnit and Mockito, slashing post-release defects by 25%.",
+        "Optimized data access layers with JDBC and JPA, significantly reducing database query times.",
+        "Collaborated with Agile teams to meet tight deadlines, boosting sprint velocity.",
+        "Fostered continuous learning within the team through code reviews and knowledge sharing."
+      ]
+    },
+    {
+      "companyImagePath": "images/openscreen-logo.png",
+      "title": "Full Stack Developer - Intern",
+      "company": "Openscreen Inc.",
+      "techImages": [
+        "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
+        "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
+        "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
+        "https://www.svgrepo.com/show/373458/aws.svg"
+      ],
+      "started": "Jan 2023",
+      "ended": "Apr 2023",
+      "descriptionPoints": [
+        "Optimized QR generation and modification with QR Batch Web App on Openscreen App store, leveraging serverless architecture with AWS services.",
+        "Engineered REST APIs using AWS Lambda, DynamoDB, and S3 Storage, achieving a 50% processing speed boost for large QR code batches.",
+        "Implemented React.js and Next.js for intuitive frontend design, enhancing user experience in QR code management.",
+        "Orchestrated project tasks in Agile environment with Jira and Git/GitHub, ensuring efficient collaboration and timely project completion."
       ]
     }
   ],
@@ -49,7 +68,7 @@
       "proficiency": 100
     },
     {
-      "imagePath": "https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg",
+      "imagePath": "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
       "name": "JavaScript",
       "proficiency": 90
     },
@@ -66,7 +85,7 @@
     {
       "imagePath": "https://www.vectorlogo.zone/logos/python/python-icon.svg",
       "name": "Python",
-      "proficiency": 100
+      "proficiency": 90
     },
     {
       "imagePath": "https://www.vectorlogo.zone/logos/springio/springio-icon.svg",

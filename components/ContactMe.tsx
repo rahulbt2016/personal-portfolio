@@ -30,25 +30,25 @@ function ContactMe({ contact }: Props) {
       </h3>
 
       <div className="flex flex-col space-y-5">
-        <h4 className="text-2xl md:text-3xl font-semibold text-center">
+        <h4 className="text-lg md:text-3xl font-semibold text-center">
           I have got just what you need.{" "}
           <span className="decoration-[#F7AB0A]/50 underline">Lets Talk.</span>
         </h4>
 
-        <div className="space-y-3">
+        <div className="space-y-1 md:space-y-3">
           <div className="flex items-center space-x-5 justify-center">
-            <PhoneIcon className="text-[#F7AB0A] h-5 w-5 md:h-7 md:w-7 animate-pulse" />
-            <p className="text-lg md:text-xl">{contact.phone}</p>
+            <PhoneIcon className="text-[#F7AB0A] h-4 w-4 md:h-7 md:w-7 animate-pulse" />
+            <p className="text-sm md:text-xl">{contact.phone}</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
-            <EnvelopeIcon className="text-[#F7AB0A] h-5 w-5 md:h-7 md:w-7 animate-pulse" />
-            <p className="text-lg md:text-xl">{contact.email}</p>
+            <EnvelopeIcon className="text-[#F7AB0A] h-4 w-4 md:h-7 md:w-7 animate-pulse" />
+            <p className="text-sm md:text-xl">{contact.email}</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
-            <MapPinIcon className="text-[#F7AB0A] h-5 w-5 md:h-7 md:w-7 animate-pulse" />
-            <p className="text-lg md:text-xl">{contact.address}</p>
+            <MapPinIcon className="text-[#F7AB0A] h-4 w-4 md:h-7 md:w-7 animate-pulse" />
+            <p className="text-sm md:text-xl">{contact.address}</p>
           </div>
         </div>
 
@@ -60,13 +60,13 @@ function ContactMe({ contact }: Props) {
             <input
               {...register("name")}
               placeholder="Name"
-              className="contactInput"
+              className="contactInput text-xs md:text-lg"
               type="text"
             />
             <input
               {...register("email")}
               placeholder="Email"
-              className="contactInput"
+              className="contactInput text-xs md:text-lg"
               type="email"
             />
           </div>
@@ -74,18 +74,18 @@ function ContactMe({ contact }: Props) {
           <input
             {...register("subject")}
             placeholder="Subject"
-            className="contactInput"
+            className="contactInput text-xs md:text-lg"
             type="text"
           />
 
           <textarea
             {...register("message")}
             placeholder="Message"
-            className="contactInput"
+            className="contactInput text-xs md:text-lg"
           />
           <button
             type="submit"
-            className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg"
+            className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-xs md:text-lg"
           >
             Submit
           </button>

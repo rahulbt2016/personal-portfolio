@@ -51,13 +51,13 @@ function Projects({ projects }: Props) {
                 className="h-40 w-auto md:h-96"
               />
 
-              <h4 className="text-4xl font-semibold text-center">
+              <h4 className="text-xl md:text-4xl font-semibold text-center">
                 <span className="underline decoration-[#F7AB0A]/50">
                   {project.title}
                 </span>{" "}
               </h4>
 
-              <p className="text-lg text-center md:text-left">
+              <p className="text-sm text-center md:text-left">
                 {project.description}
               </p>
             </div>

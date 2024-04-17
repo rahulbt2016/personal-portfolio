@@ -17,7 +17,7 @@ const Home: NextPage = () => {
                       overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80"
     >
       <Head>
-        <title>Rahul's Portfolio</title>
+        <title>Rahul Tiwari</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" type="image/png" href="images/rt-logo.png" />
       </Head>

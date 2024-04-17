@@ -36,16 +36,16 @@ function About({ about }: Props) {
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}
         src={about.imagePath}
-        className="-mb-28 md:mb-0 flex-shrink-0 w-40 h-40 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[450px] xl:h-[500px]"
+        className="-mb-28 md:mb-0 flex-shrink-0 w-36 h-36 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[450px] xl:h-[500px]"
       />
 
-      <div className="space-y-3 md:space-y-10 px-0 md:px-10">
-        <h4 className="text-xl md:text-4xl font-semibold">
+      <div className="space-y-1 md:space-y-10 px-0 md:px-10">
+        <h4 className="text-lg md:text-4xl font-semibold">
           Here is a{" "}
           <span className="underline decoration-[#F7AB0A]">little</span>{" "}
           background
         </h4>
-        <p className="text-sm md:text-base">{about.text}</p>
+        <p className="text-xs md:text-base">{about.text}</p>
       </div>
     </motion.div>
   );
