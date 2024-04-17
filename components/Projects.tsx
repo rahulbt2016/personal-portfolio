@@ -47,7 +47,8 @@ function Projects({ projects }: Props) {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 src={project.imagePath}
-                alt=""
+                alt="Project"
+                className="h-40 w-auto md:h-96"
               />
 
               <h4 className="text-4xl font-semibold text-center">

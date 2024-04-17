@@ -49,11 +49,6 @@
       "proficiency": 100
     },
     {
-      "imagePath": "https://www.vectorlogo.zone/logos/springio/springio-icon.svg",
-      "name": "Spring Boot",
-      "proficiency": 100
-    },
-    {
       "imagePath": "https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg",
       "name": "JavaScript",
       "proficiency": 90
@@ -64,14 +59,39 @@
       "proficiency": 80
     },
     {
-      "imagePath": "https://www.vectorlogo.zone/logos/angular/angular-icon.svg",
-      "name": "Angular",
-      "proficiency": 90
+      "imagePath": "https://cdn.worldvectorlogo.com/logos/c--4.svg",
+      "name": "C#",
+      "proficiency": 80
     },
     {
       "imagePath": "https://www.vectorlogo.zone/logos/python/python-icon.svg",
       "name": "Python",
       "proficiency": 100
+    },
+    {
+      "imagePath": "https://www.vectorlogo.zone/logos/springio/springio-icon.svg",
+      "name": "Spring Boot",
+      "proficiency": 100
+    },
+    {
+      "imagePath": "https://www.vectorlogo.zone/logos/dotnet/dotnet-icon.svg",
+      "name": ".NET Core",
+      "proficiency": 90
+    },
+    {
+      "imagePath": "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
+      "name": "Node.js",
+      "proficiency": 90
+    },
+    {
+      "imagePath": "https://www.vectorlogo.zone/logos/angular/angular-icon.svg",
+      "name": "Angular",
+      "proficiency": 90
+    },
+    {
+      "imagePath": "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
+      "name": "React.js",
+      "proficiency": 80
     },
     {
       "imagePath": "https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg",
@@ -86,16 +106,6 @@
     {
       "imagePath": "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg",
       "name": "AWS",
-      "proficiency": 90
-    },
-    {
-      "imagePath": "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
-      "name": "React.js",
-      "proficiency": 90
-    },
-    {
-      "imagePath": "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
-      "name": "Node.js",
       "proficiency": 90
     },
     {
@@ -137,23 +147,53 @@
       "imagePath": "https://www.vectorlogo.zone/logos/npmjs/npmjs-icon.svg",
       "name": "NPM",
       "proficiency": 90
+    },
+    {
+      "imagePath": "https://www.vectorlogo.zone/logos/nuget/nuget-icon.svg",
+      "name": "NuGet",
+      "proficiency": 90
+    },
+    {
+      "imagePath": "https://www.vectorlogo.zone/logos/docker/docker-icon.svg",
+      "name": "Docker",
+      "proficiency": 80
+    },
+    {
+      "imagePath": "https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg",
+      "name": "Jenkins",
+      "proficiency": 80
+    },
+    {
+      "imagePath": "https://cdn.worldvectorlogo.com/logos/teamcity-icon.svg",
+      "name": "TeamCity",
+      "proficiency": 90
     }
   ],
   "projects": [
     {
-      "imagePath": "https://www.vectorlogo.zone/logos/java/java-icon.svg",
-      "title": "Java Spring Boot",
-      "description": "Developed a full-stack application using Java Spring Boot, Angular, and Node.js."
+      "imagePath": "/images/project1.png",
+      "title": "SparkUp - A Social Media Platform",
+      "description": "A dynamic social media hub, built with Node.js, Express.js, React.js, and MongoDB, fostering seamless interaction and engagement among users."
     },
     {
-      "imagePath": "https://www.vectorlogo.zone/logos/angular/angular-icon.svg",
-      "title": "Angular",
-      "description": "Designed and developed a responsive web application using Angular and React.js."
+      "imagePath": "/images/project2.png",
+      "title": "URL Guardian",
+      "description": "URL Guardian, recipient of the prestigious Bell GeekFest 2023 Hackathon award, is a comprehensive full-stack application built with Java Spring Boot and Angular. Meticulously crafted, it detects malicious URLs, ensuring robust security measures and optimal performance."
     },
     {
-      "imagePath": "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
-      "title": "React.js",
-      "description": "Developed and maintained the backend of the application using Java Spring Boot."
+      "imagePath": "/images/project3.png",
+      "title": "Movies App",
+      "description": "The Movies App, powered by Node.js, Express.js, and Handlebars, offers an intuitive interface for exploring and discovering captivating films effortlessly."
+    },
+    {
+      "imagePath": "/images/project4.png",
+      "title": "Bank App",
+      "description": "The Bank App, developed with Java Spring Boot, Angular, and MySQL, is a secure and user-friendly platform for managing users' bank accounts with ease."
+    },
+    {
+      "imagePath": "/images/project5.png",
+      "title": "Rahul Tiwari - Portfolio",
+      "description": "My personal portfolio, crafted with Next.js, showcases my journey, skills, and projects, offering a glimpse into my world of coding and creativity."
     }
   ],
   "contact": {
