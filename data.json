@@ -1,0 +1,164 @@
+{
+  "socials": [
+    "https://www.linkedin.com/in/rahulbt2016",
+    "https://www.github.com/rahulbt2016",
+    "https://www.twitter.com/rahulbt98",
+    "https://www.instagram.com/rahulbt2016"
+  ],
+  "hero": {
+    "imagePath": "/images/rahul_hero_image.JPG",
+    "title": "Full Stack Developer",
+    "words": [
+      "Hi, The Name's Rahul Tiwari",
+      "Guy-who-loves-Music.tsx",
+      "<ButLovesToCodeMore />"
+    ]
+  },
+  "about": {
+    "imagePath": "/images/rahul_about_image.jpg",
+    "text": "Hey there! 👋 I'm Rahul, a tech enthusiast with over 8 years of coding wizardry under my belt. 🧙‍♂️ From the bustling streets of India to the cool vibes of Canada, I've been on a quest for knowledge in the realm of Information Technology. 🌐 Armed with a Bachelor's degree in IT and a Post Graduation in Information Technology Solutions from Humber College, I've honed my skills to master the art of full stack development. 💻 With a toolkit featuring Java Spring Boot, Angular, Node.js, and React.js, I've journeyed through the realms of startups like OpenScreen, where I helped automate bulk QR code generation for Shoppers Drug Mart. Now, I'm leveling up at FDM Group as a Software Developer Trainee, soaking in industry-recognized training and seizing every opportunity that comes my way. Let's code some magic! ✨"
+  },
+  "experiences": [
+    {
+      "companyImagePath": "images/fdm-logo.jpg",
+      "title": "Software Developer (Java) - Trainee",
+      "company": "FDM Group",
+      "techImages": [
+        "https://www.vectorlogo.zone/logos/java/java-icon.svg",
+        "https://www.vectorlogo.zone/logos/springio/springio-icon.svg",
+        "https://www.vectorlogo.zone/logos/angular/angular-icon.svg",
+        "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
+        "https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg",
+        "https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg"
+      ],
+      "started": "Dec 2023",
+      "ended": "Present",
+      "descriptionPoints": [
+        "Developed and maintained core components of enterprise-level Java applications, resulting in a 15% improvement in system efficiency.",
+        "Implemented Test-Driven Development (TDD), reducing post-release defects by 25%.",
+        "Optimized data access layers using JDBC and JPA, resulting in significant database query time reduction.",
+        "Collaborated with Agile teams to meet tight deadlines, enhancing sprint velocity.",
+        "Engaged in code reviews and knowledge sharing, fostering continuous learning within the team."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "imagePath": "https://www.vectorlogo.zone/logos/java/java-icon.svg",
+      "name": "Java",
+      "proficiency": 100
+    },
+    {
+      "imagePath": "https://www.vectorlogo.zone/logos/springio/springio-icon.svg",
+      "name": "Spring Boot",
+      "proficiency": 100
+    },
+    {
+      "imagePath": "https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg",
+      "name": "JavaScript",
+      "proficiency": 90
+    },
+    {
+      "imagePath": "https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg",
+      "name": "TypeScript",
+      "proficiency": 80
+    },
+    {
+      "imagePath": "https://www.vectorlogo.zone/logos/angular/angular-icon.svg",
+      "name": "Angular",
+      "proficiency": 90
+    },
+    {
+      "imagePath": "https://www.vectorlogo.zone/logos/python/python-icon.svg",
+      "name": "Python",
+      "proficiency": 100
+    },
+    {
+      "imagePath": "https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg",
+      "name": "MySQL",
+      "proficiency": 90
+    },
+    {
+      "imagePath": "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg",
+      "name": "MongoDB",
+      "proficiency": 90
+    },
+    {
+      "imagePath": "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg",
+      "name": "AWS",
+      "proficiency": 90
+    },
+    {
+      "imagePath": "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
+      "name": "React.js",
+      "proficiency": 90
+    },
+    {
+      "imagePath": "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
+      "name": "Node.js",
+      "proficiency": 90
+    },
+    {
+      "imagePath": "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
+      "name": "HTML5",
+      "proficiency": 90
+    },
+    {
+      "imagePath": "https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg",
+      "name": "CSS3",
+      "proficiency": 90
+    },
+    {
+      "imagePath": "https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg",
+      "name": "Bootstrap",
+      "proficiency": 80
+    },
+    {
+      "imagePath": "https://www.thymeleaf.org/images/thymeleaf.png",
+      "name": "Thymeleaf",
+      "proficiency": 80
+    },
+    {
+      "imagePath": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+      "name": "Tailwind",
+      "proficiency": 80
+    },
+    {
+      "imagePath": "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
+      "name": "Git",
+      "proficiency": 90
+    },
+    {
+      "imagePath": "https://www.vectorlogo.zone/logos/apache_maven/apache_maven-icon.svg",
+      "name": "Maven",
+      "proficiency": 90
+    },
+    {
+      "imagePath": "https://www.vectorlogo.zone/logos/npmjs/npmjs-icon.svg",
+      "name": "NPM",
+      "proficiency": 90
+    }
+  ],
+  "projects": [
+    {
+      "imagePath": "https://www.vectorlogo.zone/logos/java/java-icon.svg",
+      "title": "Java Spring Boot",
+      "description": "Developed a full-stack application using Java Spring Boot, Angular, and Node.js."
+    },
+    {
+      "imagePath": "https://www.vectorlogo.zone/logos/angular/angular-icon.svg",
+      "title": "Angular",
+      "description": "Designed and developed a responsive web application using Angular and React.js."
+    },
+    {
+      "imagePath": "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
+      "title": "React.js",
+      "description": "Developed and maintained the backend of the application using Java Spring Boot."
+    }
+  ],
+  "contact": {
+    "email": "rahulbt2016@gmail.com",
+    "phone": "+1 (437) 991-7639",
+    "address": "Toronto 🍁"
+  }
+}

@@ -8,7 +8,7 @@ import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import ContactMe from "@/components/ContactMe";
 import Link from "next/link";
-import data from "./data.json";
+import data from "../data.json";
 
 const Home: NextPage = () => {
   return (

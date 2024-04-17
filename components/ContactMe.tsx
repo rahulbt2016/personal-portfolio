@@ -29,26 +29,26 @@ function ContactMe({ contact }: Props) {
         Contact
       </h3>
 
-      <div className="flex flex-col space-y-10">
-        <h4 className="text-2xl md:text-4xl font-semibold text-center">
+      <div className="flex flex-col space-y-5">
+        <h4 className="text-2xl md:text-3xl font-semibold text-center">
           I have got just what you need.{" "}
           <span className="decoration-[#F7AB0A]/50 underline">Lets Talk.</span>
         </h4>
 
-        <div className="space-y-3 md:space-y-10">
+        <div className="space-y-3">
           <div className="flex items-center space-x-5 justify-center">
             <PhoneIcon className="text-[#F7AB0A] h-5 w-5 md:h-7 md:w-7 animate-pulse" />
-            <p className="text-lg md:text-2xl">{contact.phone}</p>
+            <p className="text-lg md:text-xl">{contact.phone}</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
             <EnvelopeIcon className="text-[#F7AB0A] h-5 w-5 md:h-7 md:w-7 animate-pulse" />
-            <p className="text-lg md:text-2xl">{contact.email}</p>
+            <p className="text-lg md:text-xl">{contact.email}</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
             <MapPinIcon className="text-[#F7AB0A] h-5 w-5 md:h-7 md:w-7 animate-pulse" />
-            <p className="text-lg md:text-2xl">{contact.address}</p>
+            <p className="text-lg md:text-xl">{contact.address}</p>
           </div>
         </div>
 

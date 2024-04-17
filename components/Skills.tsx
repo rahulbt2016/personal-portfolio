@@ -5,6 +5,7 @@ import Skill from "./Skill";
 type Props = {
   skills: {
     imagePath: string;
+    name: string;
     proficiency: number;
   }[];
 };
