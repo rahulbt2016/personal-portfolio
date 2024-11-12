@@ -20,6 +20,30 @@
   },
   "experiences": [
     {
+      "companyImagePath": "images/citi-logo.jfif",
+      "title": "Full Stack Developer",
+      "company": "Citi",
+      "techImages": [
+        "https://www.vectorlogo.zone/logos/java/java-icon.svg",
+        "https://www.vectorlogo.zone/logos/springio/springio-icon.svg",
+        "https://www.vectorlogo.zone/logos/angular/angular-icon.svg",
+        "https://www.vectorlogo.zone/logos/dotnet/dotnet-tile.svg",
+        "https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg",
+        "https://www.vectorlogo.zone/logos/docker/docker-icon.svg",
+        "https://www.vectorlogo.zone/logos/openshift/openshift-icon.svg",
+        "https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg"
+      ],
+      "started": "APR 2024",
+      "ended": "Present",
+      "descriptionPoints": [
+        "Led development and deployment of an Angular and Node.js app, enhancing CitiFX Velocity's production support.",
+        "Migrated project to ECS and integrated CI/CD pipeline with Jenkins, UrbanCode, and OpenShift, streamlining deployment.",
+        "Optimized cross-region latency, boosting performance by 30% through efficient routing and multi-region deployment.",
+        "Maintained high code quality with SonarQube and achieved 90% test coverage using Jasmine and Mocha.",
+        "Implemented ELK stack for advanced usage tracking and user log analysis, improving application performance insights."
+      ]
+    },
+    {
       "companyImagePath": "images/fdm-logo2.jpg",
       "title": "IT Consultant",
       "company": "FDM Group",
